@@ -11,7 +11,7 @@ public class CameraScript : MonoBehaviour
     [SerializeField] private float smoothing = 3f;
     void Start()
     {
-
+        offset.z = -10;
     }
 
     // Update is called once per frame
