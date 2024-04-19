@@ -1,0 +1,111 @@
+<dialogue>
+	<node>
+		<npctext> Привет, мобильная крепость</npctext>
+		<answers>
+			<answer tonode = "1">
+				<text> Ты не знаешь случайно как получить ресурсы? </text>
+				<dialogend>false</dialogend>
+			</answer>
+			<answer tonode = "6">
+				<text> Что нужно для постройки башни? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Ну смотря что тебе надо</npctext>
+		<answers>
+			<answer tonode = "2">
+				<text> Мне надо золото </text>
+				<dialogend>false</dialogend>
+			</answer>
+			<answer tonode = "4">
+				<text> Мне надо дерево </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Золото можно раздобыть в руднике, но перед этим надо будет победить печинегов</npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Хорошо,Спасибо пойду искать рудник с золотом! </text>
+				<dialogend>true</dialogend>
+			</answer>
+			<answer tonode = "3">
+				<text> А где найти этот рудник? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Поищи иди вверх по течению и там его и увидишь</npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Пойду вдоль реки </text>
+				<dialogend>true</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext>Дерево в лесу</npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Хорошо,Спасибо пойду искать лес! </text>
+				<dialogend>true</dialogend>
+			</answer>
+			<answer tonode = "5">
+				<text> А где найти этот лес? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Иди на восток там лес и увидишь</npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Хорошо, пойду на восток искать лес. Спасибо! </text>
+				<dialogend>true</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext>Для того чтобы построить башню надо раздобыть ресурсы </npctext>
+		<answers>
+			<answer tonode = "7">
+				<text> Ты не знаешь случайно как получить ресурсы? </text>
+				<dialogend>false</dialogend>
+			</answer>
+			<answer tonode = "1">
+				<text> Где найти ресурсы? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext>Тебе предстоит драться чтоб получить ресурсы </npctext>
+		<answers>
+			<answer tonode = "8">
+				<text> С кем драться? </text>
+				<dialogend>false</dialogend>
+			</answer>
+			<answer tonode = "1">
+				<text> Где найти ресурсы? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> у каждого рудника свои охранники так что ходи и смотри </npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Хорошо, пойду искать ресурсы. Спасибо! </text>
+				<dialogend>true</dialogend>
+			</answer>
+			<answer tonode = "1">
+				<text> Где найти ресурсы? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+</dialogue>
