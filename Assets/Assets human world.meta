@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials.meta
+guid: 641014e620017154ea9343591748cd4f
+========
 guid: 5721bcf71b638f34eba8936e1ac6307a
+>>>>>>>> ac4e59f573b879a39e3f177e461dd817010f933c:Assets/Assets human world.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

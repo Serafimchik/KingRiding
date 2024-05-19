@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Objects.meta
 guid: 9ac03b545de14e04abf0ebd53b76c9bc
 folderAsset: yes
+========
+guid: d82372710817a384c83c62ec111371a8
+>>>>>>>> ac4e59f573b879a39e3f177e461dd817010f933c:Assets/Scenes/TowerDefenderScenes/TestScenes/TowerDefensTestForShoot.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

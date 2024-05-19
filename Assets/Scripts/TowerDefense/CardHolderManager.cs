@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
+using UnityEngine.UI;
+
 public class CardHolderManager : MonoBehaviour
 {
     [Header("Holder Parameters")] 
@@ -36,7 +39,17 @@ public class CardHolderManager : MonoBehaviour
         cost = Cards[index].cost;
         //print(icon);
         //print(cost);
-        newcard.GetComponentInChildren<SpriteRenderer>().sprite = icon;
+        //newcard.GetComponentInChildren<SpriteRenderer>().sprite = icon;
+        //newcard.GetComponentInChildren<Image>().sprite = icon;
+        Transform Childrens = newcard.GetComponentInChildren<Transform>();
+        foreach (Transform children in Childrens)
+        {
+            if (children.gameObject.name == "icon")
+            {
+                children.GetComponentInChildren<Image>().sprite = icon;
+            }
+        }
+        //newcard.GetComponentInChildren<SpriteRenderer>().sprite = icon;
         newcard.GetComponentInChildren<TMP_Text>().text = cost.ToString();
     }
 }

@@ -435,6 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Resources: {fileID: 1579453640}
+  coinCounter: 0
 --- !u!4 &827319988
 Transform:
   m_ObjectHideFlags: 0
@@ -959,7 +960,7 @@ Camera:
   far clip plane: 1000
   field of view: 19
   orthographic: 1
-  orthographic size: 25
+  orthographic size: 27
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -984,7 +985,7 @@ Transform:
   m_GameObject: {fileID: 1602401517}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 23, y: 30.6, z: 25.2}
+  m_LocalPosition: {x: 23, y: 31.7, z: 25.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
