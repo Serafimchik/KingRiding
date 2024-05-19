@@ -1,0 +1,21 @@
+<dialogue>
+	<node>
+		<npctext> Привет, король</npctext>
+		<answers>
+			<answer tonode = "1"> <text> У тебя есть камни для обмена? Мне нада стена строить </text> <dialogend>false</dialogend> </answer>
+			<answer tonode = "2"> <text> Ты не знаешь где здесь можно раздобыть камней? </text> <dialogend>false</dialogend> </answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> У меня нету камней</npctext>
+		<answers>
+			<answer tonode = "2"> <text> Ты не знаешь где здесь можно раздобыть кумушки? </text> <dialogend>false</dialogend> </answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Поищи камни на севере</npctext>
+		<answers>
+			<answer tonode = "0"> <text> Хорошо, поищу камни. Спасибо! </text> <dialogend>true</dialogend> </answer>
+		</answers>
+	</node>
+</dialogue>
