@@ -1,0 +1,21 @@
+<dialogue>
+	<node>
+		<npctext> ПОКА, эльф</npctext>
+		<answers>
+			<answer tonode = "1"> <text>хочу дерева </text> <dialogend>false</dialogend> </answer>
+			<answer tonode = "2"> <text>Хачу золота </text> <dialogend>false</dialogend> </answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> иди на восток там лес и будет тебе дерево</npctext>
+		<answers>
+		<answer tonode = "0"><text> Хорошо, поищу лес. Спасибо! </text> <dialogend>true</dialogend></answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Иди на север там найдёшь золота</npctext>
+		<answers>
+			<answer tonode = "0"> <text> Хорошо, поищу золото. Спасибо! </text> <dialogend>true</dialogend> </answer>
+		</answers>
+	</node>
+</dialogue>
