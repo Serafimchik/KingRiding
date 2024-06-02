@@ -106,6 +106,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,12 +126,12 @@ TextureImporter:
       name: main_caracter_move_left_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 679
-        height: 518
+        x: 0
+        y: 9
+        width: 700
+        height: 527
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +147,12 @@ TextureImporter:
       name: main_caracter_move_left_1
       rect:
         serializedVersion: 2
-        x: 744
-        y: 18
-        width: 679
-        height: 518
+        x: 739
+        y: 11
+        width: 689
+        height: 528
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +168,12 @@ TextureImporter:
       name: main_caracter_move_left_3
       rect:
         serializedVersion: 2
-        x: 1469
-        y: 18
-        width: 679
-        height: 518
+        x: 1467
+        y: 11
+        width: 688
+        height: 528
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +189,12 @@ TextureImporter:
       name: main_caracter_move_left_4
       rect:
         serializedVersion: 2
-        x: 2172
-        y: 17
-        width: 679
-        height: 518
+        x: 2168
+        y: 8
+        width: 688
+        height: 531
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +202,132 @@ TextureImporter:
       bones: []
       spriteID: 3fcba82e31ddeba48b9f1646bccef7d3
       internalID: -1443024361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_caracter_move_left_2
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 324
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886062f9cb8a7704c8f2aeb42f5c5d5a
+      internalID: -609678143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_caracter_move_left_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 185
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f633be00e61be4897d889feed1c5d3
+      internalID: -1557357006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_caracter_move_left_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 188
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b27e6600f865824a91b73276d3e0d37
+      internalID: 1389726921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_caracter_move_left_7
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 106
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be11cd8a5965144c8b3ac12ba3b1db8
+      internalID: 1826326200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_caracter_move_left_8
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7e493b54c2df24fbc72ccac0e224ad
+      internalID: 966140726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_caracter_move_left_9
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 10
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fffe6ba1cdd92643bad2bb3ed56185a
+      internalID: 489848068
       vertices: []
       indices: 
       edges: []
