@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System;
 
 public class DialogueTrigger : MonoBehaviour
-{
+{   
     public GameObject Window;
     public Text text;
     public Text firstAnswer;
