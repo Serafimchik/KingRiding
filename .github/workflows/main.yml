@@ -1,9 +1,20 @@
 name: Actions
 
 on: [push, pull_request]
-
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 jobs:
-  build:
+  checkLicense:
+    name: Check for Unity license
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail - No license
+        if: ${{ !startsWith(env.UNITY_LICENSE,'<') }}
+        run: exit 1
+
+
+  test:
+    needs: checkLicense
     name: Test my project
     runs-on: ubuntu-latest
     steps:
