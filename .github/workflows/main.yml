@@ -1,6 +1,6 @@
 name: Actions
 
-on: [push, pull_request]
+on: push
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 jobs:
