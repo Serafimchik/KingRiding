@@ -9,6 +9,7 @@ public class Mine : MonoBehaviour
     public string NumberOfGenus2;
     public string Genus3;
     public string NumberOfGenus3;
+    public GameObject InfoWindow;
     public GameObject MineWindow;
     public Text Type1;
     public Text Type2;
@@ -89,7 +90,12 @@ public class Mine : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 if (isShowInfo == false)
+<<<<<<< Updated upstream
                 {
+=======
+                {
+>>>>>>> Stashed changes
+                    InfoWindow.SetActive(false);
                     MineWindow.SetActive(true);
                     isShowInfo = true;
                     set_active = true;
