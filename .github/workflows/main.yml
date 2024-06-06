@@ -39,14 +39,12 @@ jobs:
           git lfs pull
           git add .
           git reset --hard
-
       - uses: actions/cache@v4
         with:
           path: Library
           key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
             Library-
-
       - name: Run tests
         uses: game-ci/unity-test-runner@v4
         env:
@@ -56,8 +54,12 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           unityVersion: ${{ '2022.3.9f1' }}
+          
+      - name: Return license
+        uses: game-ci/unity-return-license@v2
+        if: always()
 
       - uses: actions/upload-artifact@v4
         with:
           name: Build
-          path: ${{ steps.testRunner.outputs.artifactsPatg }}
+          path: build
