@@ -37,10 +37,6 @@ public class CardHolderManager : MonoBehaviour
         print(cardManager.TowerCard);
         icon = Cards[index].icon;
         cost = Cards[index].cost;
-        //print(icon);
-        //print(cost);
-        //newcard.GetComponentInChildren<SpriteRenderer>().sprite = icon;
-        //newcard.GetComponentInChildren<Image>().sprite = icon;
         Transform Childrens = newcard.GetComponentInChildren<Transform>();
         foreach (Transform children in Childrens)
         {
@@ -49,7 +45,6 @@ public class CardHolderManager : MonoBehaviour
                 children.GetComponentInChildren<Image>().sprite = icon;
             }
         }
-        //newcard.GetComponentInChildren<SpriteRenderer>().sprite = icon;
         newcard.GetComponentInChildren<TMP_Text>().text = cost.ToString();
     }
 }
