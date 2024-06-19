@@ -87,6 +87,8 @@ public class DialogueTrigger : MonoBehaviour
                 firstAnswer.text = dialogue.nodes[currentNode].answers[0].text;
                 secondButton.enabled = false; 
                 secondAnswer.text = "";
+                thirdButton.enabled = false;
+                thirdAnswer.text = "";
                 break;
             case 2:
                 firstButton.enabled = true;
@@ -94,6 +96,7 @@ public class DialogueTrigger : MonoBehaviour
                 secondButton.enabled = true;
                 secondAnswer.text = dialogue.nodes[currentNode].answers[1].text;
                 thirdButton.enabled = false;
+                thirdAnswer.text = "";
                 break;
             case 3:
                 firstButton.enabled = true;
