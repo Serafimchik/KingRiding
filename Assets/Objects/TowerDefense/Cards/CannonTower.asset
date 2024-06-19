@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c09d8f340649d0543889263c2ee9356c, type: 3}
-  m_Name: New card
+  m_Name: CannonTower
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  prefab: {fileID: 0}
-  cost: 0
+  icon: {fileID: 21300000, guid: 40d652b195b861b429a5f3ea38464a83, type: 3}
+  prefab: {fileID: 2353752456533329032, guid: e64d5b939337b97479f5bc4e33bf7c53, type: 3}
+  cost: 10

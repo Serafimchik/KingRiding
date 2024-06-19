@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c09d8f340649d0543889263c2ee9356c, type: 3}
-  m_Name: New card
+  m_Name: FireTower
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  prefab: {fileID: 0}
-  cost: 0
+  icon: {fileID: 21300000, guid: 0678e2759e808b541839a3b3c17cb0fb, type: 3}
+  prefab: {fileID: 8186883333274582909, guid: 1e229f3189986724a953f7ebd6e4e909, type: 3}
+  cost: 15
