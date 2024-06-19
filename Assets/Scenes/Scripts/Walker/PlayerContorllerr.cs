@@ -7,10 +7,6 @@ public class PlayerContorllerr : MonoBehaviour
     [SerializeField]
     float speed = 5;
     // Start is called before the first frame update
-
-    [SerializeField]
-    Animator animator;
-
     void Start()
     {
         
@@ -21,9 +17,6 @@ public class PlayerContorllerr : MonoBehaviour
     {
         float horInput = Input.GetAxis("Horizontal");
         float verInput = Input.GetAxis("Vertical");
-
-        float HorizontalMove = Input.GetAxis("Horizontal");
-        animator.SetFloat("HorizontalMove", HorizontalMove);
 
         if (verInput > 0)
         {

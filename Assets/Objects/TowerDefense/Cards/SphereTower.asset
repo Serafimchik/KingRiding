@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c09d8f340649d0543889263c2ee9356c, type: 3}
-  m_Name: New Card
+  m_Name: SphereTower
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  prefab: {fileID: 0}
-  cost: 8
+  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  prefab: {fileID: 4835824633845784152, guid: cfc8385e95710f9409869fcf9f55e0a3, type: 3}
+  cost: 15

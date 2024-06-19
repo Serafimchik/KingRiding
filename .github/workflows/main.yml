@@ -1,50 +1,25 @@
 name: Actions
 
-on: push
-
-env:
-  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+on: [push, pull_request]
 
 jobs:
-  checkLicense:
-    name: Check for Unity license
-    runs-on: ubuntu-latest
-    steps:
-      - name: Fail - No license
-        if: ${{ !startsWith(env.UNITY_LICENSE,'<') }}
-        run: exit 1
-
-
-  test:
-    needs: checkLicense
+  build:
     name: Test my project
     runs-on: ubuntu-latest
     steps:
 
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Create LFS file list
-        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
-
-      - name: Restore LFS cache
-        uses: actions/cache@v4
-        id: lfs-cache
         with:
-          path: .git/lfs
-          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+          lfs: true
 
-      - name: Git LFS Pull
-        run: |
-          git lfs pull
-          git add .
-          git reset --hard
-      - uses: actions/cache@v4
+      - uses: actions/cache@v3
         with:
           path: Library
           key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
             Library-
+
       - name: Run tests
         uses: game-ci/unity-test-runner@v4
         env:
@@ -53,13 +28,3 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          unityVersion: ${{ '2022.3.9f1' }}
-          
-      - name: Return license
-        uses: game-ci/unity-return-license@v2
-        if: always()
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: Build
-          path: build
