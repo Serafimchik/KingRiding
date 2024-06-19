@@ -7,11 +7,12 @@ TagManager:
   - Enemy
   - FxTemporaire
   - Tower
+  - platform
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Towers
   - Water
   - UI
   - 

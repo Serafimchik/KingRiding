@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6002110646526931730}
   - component: {fileID: 9084245310229804608}
   - component: {fileID: 5053136315643593918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u0421\u0444\u0435\u0440\u0430.001"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 215691119618950242}
   - component: {fileID: 7116925632592058249}
   - component: {fileID: 132889193237371079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8851393683695986119}
   - component: {fileID: 6665119241322479687}
-  m_Layer: 0
+  - component: {fileID: 1136959508385866063}
+  m_Layer: 3
   m_Name: FireTower
   m_TagString: Tower
   m_Icon: {fileID: 0}
@@ -218,3 +219,18 @@ MonoBehaviour:
   tagEn: Enemy
   Projectile: {fileID: 5508617654030555115, guid: 6883d957589a17d4981891e751b6b7e6, type: 3}
   yOffset: 50
+--- !u!114 &1136959508385866063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8186883333274582909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f40479d3422da4897149d25aa8e6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerSize: {x: 30, y: 30}
+  renderer: {fileID: 0}
+  towerHigh: 26

@@ -1,0 +1,38 @@
+<dialogue>
+	<node>
+		<npctext> Здраствуй, король гномов. Зачем ты пришёл в наши земли?</npctext>
+		<answers>
+			<answer tonode = "1">
+				<text> Моё королевство в нужде, мне нужно золото ради его восставновления. </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Ты можешь отобрать его у нашего врага. Он десятилетия грабил народ и скопил огромное состояние.</npctext>
+		<answers>
+			<answer tonode = "2">
+				<text> Как мне добраться до него? </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> У него есть рудник на севере и лесопилка на юге, можешь разграбить их </npctext>
+		<answers>
+			<answer tonode = "3">
+				<text> Я могу это, но это не остановит его теранию. Он лишь увеличит налоги. Мне жаль вас. </text>
+				<dialogend>false</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Если ты ослабишь его, разграбив оба рудника, то сможешь найти его лагерь на востоке. Там ты и сможешь его убить. </npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Я постараюсь помочь вам, спасибо </text>
+				<dialogend>true</dialogend>
+			</answer>
+		</answers>
+	</node>
+</dialogue>
