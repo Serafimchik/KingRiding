@@ -95,3 +95,4 @@ MonoBehaviour:
   massiveDamage: 20
   attackRadius: 300
   tagEn: Enemy
+  prefabAnimation: {fileID: 3169121156754507551, guid: c944a5ba284e13b4189b52365b738137, type: 3}
