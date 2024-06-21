@@ -4658,10 +4658,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  maxHealth: 1000
-  maxSpeed: 50
+  maxHealth: 190
+  maxSpeed: 60
   currentSpeed: 0
   rotationSpeed: 10
+  EnemyPrice: 8
   healthBarUi: {fileID: 3398641911654359161}
   slider: {fileID: 974741660694136432}
   waypoints: []

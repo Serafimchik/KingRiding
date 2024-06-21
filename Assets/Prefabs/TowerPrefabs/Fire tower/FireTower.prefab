@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 300
   CurrCooldown: 0
-  Cooldown: 1
+  Cooldown: 1.5
   tagEn: Enemy
   Projectile: {fileID: 5508617654030555115, guid: 6883d957589a17d4981891e751b6b7e6, type: 3}
   yOffset: 50
@@ -234,3 +234,4 @@ MonoBehaviour:
   towerSize: {x: 30, y: 30}
   renderer: {fileID: 0}
   towerHigh: 26
+  isTowerBuilding: 0

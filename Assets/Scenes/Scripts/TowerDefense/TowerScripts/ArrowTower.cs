@@ -11,14 +11,17 @@ public class TowerArrow : MonoBehaviour
     public GameObject Projectile;
     public void Update()
     {
-        if (CanShoot())
+        if (gameObject.GetComponent<TowerBuilding>().isTowerBuilding)
         {
-            SearchTarget();
-        }
+            if (CanShoot())
+            {
+                SearchTarget();
+            }
 
-        if (CurrCooldown > 0) 
-        {
-            CurrCooldown -= Time.deltaTime;
+            if (CurrCooldown > 0)
+            {
+                CurrCooldown -= Time.deltaTime;
+            }
         }
     }
     bool CanShoot() 

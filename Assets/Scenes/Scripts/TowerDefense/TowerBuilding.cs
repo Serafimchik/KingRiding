@@ -8,6 +8,7 @@ public class TowerBuilding : MonoBehaviour
     [SerializeField] private new Renderer renderer;
     [SerializeField] public int towerHigh;
 
+    public bool isTowerBuilding = false;
     public Vector2 TowerSize { get => towerSize;set {; } }   
     
     private void SetColor(bool isAllowedtoBuild)

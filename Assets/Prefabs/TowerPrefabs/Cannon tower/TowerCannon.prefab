@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea6188768c306542b44aac9970ce19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 900
+  range: 600
   CurrCooldown: 0
   Cooldown: 5
   tagEn: Enemy
@@ -128,3 +128,4 @@ MonoBehaviour:
   towerSize: {x: 30, y: 30}
   renderer: {fileID: 0}
   towerHigh: -15
+  isTowerBuilding: 0

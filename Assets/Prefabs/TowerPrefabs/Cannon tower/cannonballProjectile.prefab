@@ -91,8 +91,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitDistance: 35
   speed: 400
-  damage: 40
-  massiveDamage: 20
+  damage: 70
+  massiveDamage: 30
   attackRadius: 300
   tagEn: Enemy
   prefabAnimation: {fileID: 3169121156754507551, guid: c944a5ba284e13b4189b52365b738137, type: 3}

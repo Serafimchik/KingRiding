@@ -111,9 +111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9bf396e4f583924190ba555814bd269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 600
+  range: 300
   CurrCooldown: 1
-  Cooldown: 1
+  Cooldown: 2
   tagEn: Enemy
   Projectile: {fileID: 4575245183839260109, guid: 9e2e96557c77cae469f92b3207828eb7, type: 3}
 --- !u!114 &9017365865356098060
@@ -131,6 +131,7 @@ MonoBehaviour:
   towerSize: {x: 40, y: 40}
   renderer: {fileID: 0}
   towerHigh: 48
+  isTowerBuilding: 0
 --- !u!65 &2505100250852041315
 BoxCollider:
   m_ObjectHideFlags: 0

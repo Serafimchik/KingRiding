@@ -90,6 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitDistance: 35
-  speed: 150
-  damage: 50
+  speed: 250
+  damage: 100
   tagEn: Enemy
