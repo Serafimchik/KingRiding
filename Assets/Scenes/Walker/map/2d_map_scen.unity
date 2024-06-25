@@ -16514,6 +16514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e0587e0855e86429607ae0f671fe10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneName: TowerDefense1
   Genus1: "\u0416\u0435\u043B\u0435\u0437\u0430"
   NumberOfGenus1: 100
   Genus2: "\u0417\u043E\u043B\u043E\u0442\u0430"
@@ -23938,6 +23939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e0587e0855e86429607ae0f671fe10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneName: TowerDefense
   Genus1: "\u0414\u0435\u0440\u0435\u0432\u0430"
   NumberOfGenus1: 100
   Genus2: "\u0427\u0435\u0441\u0442\u0438"

@@ -18,8 +18,8 @@ public class EventSystem : MonoBehaviour
     public void EnemyAdd()
     {
         LoseEnemyCounter++;
-        CheckFight();
         EnemyCounter--;
+        CheckFight();
     }
 
     public void EnemyReset() {

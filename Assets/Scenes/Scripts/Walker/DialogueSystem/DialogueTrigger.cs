@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class DialogueTrigger : MonoBehaviour
     public void OnTriggerExit2D(Collider2D other)
     {
         EndDialogue();
+        SceneManager.LoadScene("TowerDefense2");
     }
 
     private void but1()
