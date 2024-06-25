@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 3ff4140d440a9884cbe5fe189e9ba6a5, type: 3}
   prefab: {fileID: 1149979328890005155, guid: 6fb4d1e24af461f4390bec580348959c, type: 3}
-  cost: 5
+  cost: 20

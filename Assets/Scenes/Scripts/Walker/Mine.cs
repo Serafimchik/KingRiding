@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Mine : MonoBehaviour
 {
+    public string SceneName;
     public string Genus1;
     public string NumberOfGenus1;
     public string Genus2;
@@ -70,10 +72,11 @@ public class Mine : MonoBehaviour
             output += ($"{item.Key}: {item.Value} ");
         }
         TextInfo.text = output;
+        SceneManager.LoadScene(SceneName);
     }
     public void OnTriggerExit2D(Collider2D other)
     {
-        MineWindow.SetActive(false);
+        // MineWindow.SetActive(false);
         set_active = false;
         AddButton.onClick.RemoveListener(but1);
         inCollider = false;

@@ -13,6 +13,7 @@ public class CannonBallProjectileScript : MonoBehaviour
     public float attackRadius = 100f;
     public string tagEn = "Enemy";
     
+    public GameObject prefabAnimation; 
     
     void Start()
     {
@@ -57,6 +58,11 @@ public class CannonBallProjectileScript : MonoBehaviour
                     }
                     
                     }
+                }
+                if (prefabAnimation != null)
+                {
+                    Vector3 position  = new Vector3(transform.position.x, 0f, transform.position.z);;
+                    GameObject newPrefab = Instantiate(prefabAnimation,position,Quaternion.identity);
                 }
                 Destroy(gameObject);
             }

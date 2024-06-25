@@ -18,6 +18,6 @@ public class PrintInfo : MonoBehaviour
     }
     public void OnTriggerExit2D(Collider2D other)
     {
-        InfoWindow.SetActive(false);
+        // InfoWindow.SetActive(false);
     }
 }

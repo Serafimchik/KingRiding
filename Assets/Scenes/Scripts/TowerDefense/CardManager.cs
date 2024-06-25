@@ -106,6 +106,7 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerDownHandler, IPo
         towerhigh = tower.towerHigh;
         towercolors = TakeTowerColors();
 
+
         var groundPlane = new Plane(Vector3.up, Vector3.zero);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -115,7 +116,7 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerDownHandler, IPo
             int x = Mathf.RoundToInt(mapPosition.x);
             int z = Mathf.RoundToInt(mapPosition.z);
 
-            print(tower.towerHigh);
+            // print(tower.towerHigh);
             draggingTower.transform.position = new Vector3(x, towerhigh, z);
 
         }
@@ -129,7 +130,7 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerDownHandler, IPo
         else
         {
             LocationInstaller();
-
+            tower.isTowerBuilding = true;
             tower.ApplyResetColor(towercolors);
             GameObject.Find("EconomyManager").GetComponentInChildren<EconomyManager>().SpendCoin(towercost);
             //print($"dragging x = {(int)draggingTower.transform.position.x}, dragging z = {(int)draggingTower.transform.position.z}");
